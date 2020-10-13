@@ -5,13 +5,9 @@ import com.github.javafaker.Faker;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.json.JSONObject;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import java.util.Locale;
-
 import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.*;
 
